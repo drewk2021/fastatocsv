@@ -1,11 +1,10 @@
-import sys, os
+import sys, os, errno
 
 
 def convert(input,output):
     """ Converts .fasta, input, into .csv, output. Returns output path."""
     if not os.path.exists(input):
-        print('\nError: File "%s" does not exist!\n' % input)
-        return
+        raise IOError(errno.ENOENT, 'No such file', input)
 
     # Read in Fasta
     fasta = open(input, 'r')
