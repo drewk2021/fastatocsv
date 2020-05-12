@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: fastatoscsvconverter
+Version: 0.0.1
+Summary: A package to convert .fasta files into .csv files
+Home-page: https://github.com/drewk2021/fastatocsv
+Author: Andrew Kessler
+Author-email: drew.kessler.21@bishops.com
+License: UNKNOWN
+Description: fastatocsv is a python package that allows for manipulation of fasta files into csv formats.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

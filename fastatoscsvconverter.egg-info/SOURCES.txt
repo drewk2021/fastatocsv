@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+fasta2csv/__init__.py
+fasta2csv/converter.py
+fastatoscsvconverter.egg-info/PKG-INFO
+fastatoscsvconverter.egg-info/SOURCES.txt
+fastatoscsvconverter.egg-info/dependency_links.txt
+fastatoscsvconverter.egg-info/top_level.txt
