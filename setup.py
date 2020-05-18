@@ -4,8 +4,8 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="fastatoscsvconverter",
-    version="0.0.1",
+    name="fastatocsv",
+    version="0.0.2",
     author="Andrew Kessler",
     author_email="drew.kessler.21@bishops.com",
     description="A package to convert .fasta files into .csv files",
