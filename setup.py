@@ -5,10 +5,10 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="fastatocsv",
-    version="0.0.2",
+    version="0.0.3",
     author="Andrew Kessler",
     author_email="drew.kessler.21@bishops.com",
-    description="A package to convert .fasta files into .csv files",
+    description="A package to convert .fasta files into .csv files.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/drewk2021/fastatocsv",

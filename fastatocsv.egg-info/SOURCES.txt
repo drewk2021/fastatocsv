@@ -1,15 +1,11 @@
 LICENSE
 README.md
 setup.py
-dist/fastatoscsvconverter-0.0.1-py3-none-any.whl
-dist/fastatoscsvconverter-0.0.1.tar.gz
+dist/fastatocsv-0.0.2-py3-none-any.whl
+dist/fastatocsv-0.0.2.tar.gz
 fasta2csv/__init__.py
 fasta2csv/converter.py
 fastatocsv.egg-info/PKG-INFO
 fastatocsv.egg-info/SOURCES.txt
 fastatocsv.egg-info/dependency_links.txt
 fastatocsv.egg-info/top_level.txt
-fastatoscsvconverter.egg-info/PKG-INFO
-fastatoscsvconverter.egg-info/SOURCES.txt
-fastatoscsvconverter.egg-info/dependency_links.txt
-fastatoscsvconverter.egg-info/top_level.txt
