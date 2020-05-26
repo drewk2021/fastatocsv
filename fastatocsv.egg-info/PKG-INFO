@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: fastatocsv
-Version: 0.0.3
+Version: 0.0.4
 Summary: A package to convert .fasta files into .csv files.
 Home-page: https://github.com/drewk2021/fastatocsv
 Author: Andrew Kessler

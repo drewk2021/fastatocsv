@@ -2,7 +2,14 @@ import sys, os
 
 
 def convert(input,output):
-    """ Converts .fasta, input, into .csv, output. Returns output path."""
+    """
+    Purpose: To convert a .fasta file of >= 1 sequence(s) into a .csv file, with
+    two columns, one containing the headline identifier, the other containing the
+    sequence.
+    Parameters: the input .fasta file path, a string, and the desired .csv output
+    path, another string.
+    Return: the output path, a string.
+    """
     if not os.path.exists(input):
         raise IOError(errno.ENOENT, 'No such file', input)
 
@@ -47,9 +54,14 @@ def convert(input,output):
 
 
 def convertWithAttributes(input,output):
-    """ Converts .fasta, input, into .csv, output.
-    The CSV has columns based on attributes in the header of the .fasta file.
-    Returns output path."""
+    """
+    Purpose: To convert a .fasta file of >= 1 sequence(s) into a .csv file, with
+    n >= 2 columns, n-1 of which contain attributes of the sequence listed in the
+    headline identifier, and 1 of which contains the actual sequence.
+    Parameters: the input .fasta file path, a string, and the desired .csv output
+    path, another string.
+    Return: the output path, a string.
+    """
     if not os.path.exists(input):
         raise IOError(errno.ENOENT, 'No such file', input)
 

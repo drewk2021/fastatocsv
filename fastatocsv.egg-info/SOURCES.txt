@@ -1,8 +1,8 @@
 LICENSE
 README.md
 setup.py
-dist/fastatocsv-0.0.2-py3-none-any.whl
-dist/fastatocsv-0.0.2.tar.gz
+dist/fastatocsv-0.0.3-py3-none-any.whl
+dist/fastatocsv-0.0.3.tar.gz
 fasta2csv/__init__.py
 fasta2csv/converter.py
 fastatocsv.egg-info/PKG-INFO
