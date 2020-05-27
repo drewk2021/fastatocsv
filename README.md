@@ -1,7 +1,7 @@
 # fastatocsv
 
-fastatocsv is a python package that allows for manipulation of fasta files into csv formats. 
-You can access it at (https://pypi.org/project/fastatoscsvconverter/).
+fastatocsv is a python package that allows for manipulation of fasta files into csv formats.
+You can access it at (https://pypi.org/project/fastatocsv/).
 
 ## Installation
 Use ***```pip install fastatocsv```*** to install the package locally.
@@ -9,7 +9,6 @@ Use ***```pip install fastatocsv```*** to install the package locally.
 
 ### Example
 ```
-import fastatocsv 
+import fastatocsv
 fastatocsv.converter.convert("pathtoyourfasta.fasta","new.csv")
 ```
-
